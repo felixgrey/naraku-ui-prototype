@@ -31,12 +31,19 @@
 </template>
 
 <script>
-export default {
+ import {DataHub} from 'naraku'; 
+  
+export default DataHub.inject({
+  
+})({
   name: 'HelloWorld',
+  created() {
+    // console.log(this)
+  },
   props: {
     msg: String
   }
-}
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

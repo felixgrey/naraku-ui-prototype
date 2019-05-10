@@ -1,9 +1,10 @@
 {
   "name": "naraku-ui-prototype",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start:": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -11,7 +12,7 @@
     "core-js": "^2.6.5",
     "echarts": "^4.2.1",
     "element-ui": "^2.8.2",
-    "naraku": "latest",
+    "naraku": "0.0.26",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6"
   },
